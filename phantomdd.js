@@ -8,7 +8,7 @@ puppeteer
   })
   .then(async (browser) => {
     const page = await browser.newPage();
-    await page.goto("https://google.com");
+    await page.goto("https://sketchfab.com/search?q=car&type=models");
     await page.screenshot({ path: "nyt-puppeteer.png" });
     await browser.close();
   });
