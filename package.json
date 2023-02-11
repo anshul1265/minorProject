@@ -1,0 +1,22 @@
+{
+  "name": "minorproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "phantomjs-prebuilt": "^2.1.16",
+    "puppeteer": "^19.6.3",
+    "url2png": "^6.0.2"
+  }
+}
